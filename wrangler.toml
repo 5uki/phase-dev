@@ -1,0 +1,12 @@
+name = "phase-dev"
+main = "src/index.ts"
+compatibility_date = "2025-03-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "phase-db"
+database_id = "60cf028c-0df8-496b-8ecf-4953da8b48f0" # 运行 `bun run db:create` 后填入
+
+[vars]
+CORS_ORIGIN = "*"
